@@ -1,0 +1,125 @@
+/* You can add global styles to this file, and also import other style files */
+.app {
+  --dark-brown: #0E0E0E;
+  --brown: #261317;
+  //--light-brown: #1e1e24;
+  --light-brown: #362F36;
+}
+
+.bg-brown-light {
+  background-color: var(--light-brown);
+}
+.bg-brown-regular {
+  background-color: var(--brown);
+}
+.bg-brown-dark {
+  background-color: var(--dark-brown);
+}
+
+.brown-light {
+  color: var(--light-brown);
+}
+.brown-regular {
+  color: var(--brown);
+}
+.brown-dark {
+  color: var(--dark-brown);
+}
+
+@font-face {
+  font-family: millimetre;
+  src: url(./assets/webfonts/Regular/Millimetre-Regular_web.ttf);
+}
+
+h1 {
+  font-family: millimetre;
+  font-weight: bold;
+}
+
+h2 {
+  font-family: millimetre;
+  font-weight: bold;
+}
+
+h3 {
+  font-family: millimetre;
+  font-weight: bold;
+}
+
+h4 {
+  font-family: millimetre;
+  font-weight: bold;
+}
+
+body {
+  font-family: millimetre;
+  font-weight: 500;
+}
+
+.icon-large{
+  width: 15rem;
+  height: 15rem;
+}
+
+.icon-medium {
+  width: 5rem;
+  height: 5rem;
+}
+.icon-small {
+  width: 3rem;
+  height: 3rem;
+}
+
+
+
+
+
+@font-face {
+  font-family: millimetre;
+  src: url(./assets/webfonts/Light/Millimetre-Light_web.woff2),
+  url(./assets/webfonts/Light/Millimetre-Light_web.woff),
+  url(./assets/webfonts/Light/Millimetre-Light_web.ttf),
+  url(./assets/webfonts/Light/Millimetre-Light_web.eot),
+  url(./assets/webfonts/Light/Millimetre-Light_web.otf);
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: millimetre;
+  src: url(./assets/webfonts/Regular/Millimetre-Regular_web.woff2),
+  url(./assets/webfonts/Regular/Millimetre-Regular_web.woff),
+  url(./assets/webfonts/Regular/Millimetre-Regular_web.ttf),
+  url(./assets/webfonts/Regular/Millimetre-Regular_web.eot),
+  url(./assets/webfonts/Regular/Millimetre-Regular_web.otf);
+}
+
+@font-face {
+  font-family: millimetre;
+  src: url(./assets/webfonts/Regular/Millimetre-Regular_web.woff2),
+  url(./assets/webfonts/Regular/Millimetre-Regular_web.woff),
+  url(./assets/webfonts/Regular/Millimetre-Regular_web.ttf),
+  url(./assets/webfonts/Regular/Millimetre-Regular_web.eot),
+  url(./assets/webfonts/Regular/Millimetre-Regular_web.otf);
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: millimetre;
+  src: url(./assets/webfonts/Bold/Millimetre-Bold_web.woff2),
+  url(./assets/webfonts/Bold/Millimetre-Bold_web.woff),
+  url(./assets/webfonts/Bold/Millimetre-Bold_web.ttf),
+  url(./assets/webfonts/Bold/Millimetre-Bold_web.eot),
+  url(./assets/webfonts/Bold/Millimetre-Bold_web.otf);
+  font-weight: bold;
+}
+
+
+@font-face {
+  font-family: millimetre;
+  src: url(./assets/webfonts/Extrablack/Millimetre-Extrablack_web.woff2),
+  url(./assets/webfonts/Extrablack/Millimetre-Extrablack_web.woff),
+  url(./assets/webfonts/Extrablack/Millimetre-Extrablack_web.ttf),
+  url(./assets/webfonts/Extrablack/Millimetre-Extrablack_web.eot),
+  url(./assets/webfonts/Extrablack/Millimetre-Extrablack_web.otf);
+  font-weight: 800;
+}

@@ -1,0 +1,21 @@
+.ng-valid[required], .ng-valid.required  {
+  border-left: 5px solid #42A948; /* green */
+}
+
+.ng-invalid:not(form)  {
+  border-left: 5px solid #a94442; /* red */
+}
+
+
+.group {
+  margin: 2rem;
+  .form-group {
+  }
+
+}
+
+.form-wrapper {
+  min-height: 25rem;
+  min-width: 25rem;
+}
+

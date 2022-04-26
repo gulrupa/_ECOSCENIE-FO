@@ -1,0 +1,89 @@
+<div class="banner overflow-hidden d-flex justify-content-around p-2">
+	<div class="d-flex bg-brown-light p-5 m-2">
+		<img src="../assets/LOGOblanc.svg" class="icon-large">
+	</div>
+	<div class="d-flex bg-brown-light m-2">
+		<app-contact-form class="text-white"> EcoScenie</app-contact-form>
+	</div>
+</div>
+<div class="overflow-hidden flex-column">
+	<div class="feed row bg-brown-light text-white">
+		<h1 class="row">Le cycle de vie de vos objets...</h1>
+		<app-icon-card
+			[picture]="'../assets/euro.svg'"
+			[title]="'Acheté'"
+			[description]="'fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff'"
+			class="col">
+		</app-icon-card>
+		<app-icon-card
+			[picture]="'../assets/microphone.svg'"
+			[title]="'Utilisé'"
+			[description]="'fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff'"
+			class="col">
+		</app-icon-card>
+		<app-icon-card
+			[picture]="'../assets/poubelle.svg'"
+			[title]="'Jetté'"
+			[description]="'fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff'"
+			class="col">
+		</app-icon-card>
+	</div>
+	<div class="feed row bg-white">
+		<h1>Notre proposition : une nouvelle vie chez Éco Scénie</h1>
+		<app-icon-card
+			[picture]="'../assets/boite-cadeau.svg'"
+			[title]="'Donné'"
+			[description]="'fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff'"
+			class="col">
+		</app-icon-card>
+		<app-icon-card
+			[picture]="'../assets/camion-de-livraison.svg'"
+			[title]="'Enlevé'"
+			[description]="'fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff'"
+			class="col">
+		</app-icon-card>
+		<app-icon-card
+			[picture]="'../assets/marteau.svg'"
+			[title]="'Réparé'"
+			[description]="'fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff'"
+			class="col">
+		</app-icon-card>
+		<app-icon-card
+			[picture]="'../assets/plante.svg'"
+			[title]="'Utilisé'"
+			[description]="'fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff'"
+			class="col">
+		</app-icon-card>
+	</div>
+	<div class="feed row bg-brown-light">
+		<h1 class="text-white">Quelques chiffres</h1>
+		<app-icon-with-figures-row></app-icon-with-figures-row>
+	</div>
+</div>
+<div
+	class="footer overflow-hidden bg-brown-regular  d-flex text-white flex-wrap p-4
+		{{mobile ? 'align-content-start' : 'justify-content-center align-content-between'}}"
+>
+	<div class="d-flex justify-content-center m-1"
+		onclick="window.open('https://www.instagram.com/ecoscenie','mywindow');"
+		style="cursor: pointer;">
+		<img src="../assets/instagram.svg" class="icon-small">
+		<h3 class="m-2">@ecoscenie</h3>
+	</div>
+	<div class="d-flex justify-content-center align-items-center m-1"
+		onclick="window.open('https://www.helloasso.com/associations/eco-scenie/adhesions/eco-scenie-formulaire-d-adhesion','mywindow');"
+		style="cursor: pointer;">
+		<img src="../assets/avatar.svg" class="icon-small">
+		<h3 class="m-2">Eco Scenie</h3>
+	</div>
+	<div class="d-flex justify-content-center align-items-center m-1"
+		onclick="window.open('https://www.facebook.com/Eco-Sc%C3%A9nie-105237981929133','mywindow');"
+		style="cursor: pointer;">
+		<img src="../assets/facebook.svg" class="icon-small">
+		<h3 class="m-2">Eco Scénie</h3>
+	</div>
+	<div class="d-flex justify-content-center align-items-center m-1">
+		<img src="../assets/email.svg" class="icon-small">
+		<h3 class="m-2">ecoscenie@gmail.com</h3>
+	</div>
+</div>

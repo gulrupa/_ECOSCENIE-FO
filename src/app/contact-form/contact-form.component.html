@@ -1,0 +1,54 @@
+<div class="m-2 form-wrapper">
+	<form (ngSubmit)="onSubmit()" #emailForm="ngForm">
+		<div class="group">
+			<div class="form-group">
+				<label for="sender">Email</label>
+				<input type="text" class="form-control" id="sender"
+					required
+					[(ngModel)]="model.sender" name="sender">
+			</div>
+			<span>
+  </span>
+
+			<div class="form-group">
+				<label for="power">Type de demande</label>
+				<select class="form-control" id="power"
+					required
+					[(ngModel)]="model.addField1" name="power">
+					<option *ngFor="let pow of powers" [value]="pow">{{pow}}</option>
+				</select>
+			</div>
+
+			<div class="form-group">
+				<label for="object">Objet</label>
+				<input type="text" class="form-control" id="object"
+					required
+					[(ngModel)]="model.object" name="object"
+					#name="ngModel">
+				<div [hidden]="name.valid || name.pristine"
+					class="alert alert-danger">
+					Name is required
+				</div>
+			</div>
+		</div>
+		<div class="group">
+			<div class="form-group">
+				<label for="content">Message</label>
+				<input type="text" class="form-control" id="content"
+					required
+					[(ngModel)]="model.content" name="content">
+			</div>
+		</div>
+		<div class="group">
+			<button type="submit" class="btn btn-success w-100"
+				[disabled]="!emailForm.form.valid">Submit
+			</button>
+		</div>
+	</form>
+</div>
+
+
+<div [hidden]="!submitted">
+	<h2>Message envoyé !</h2>
+	<button type="button" class="btn btn-primary" (click)="submitted=false">Close</button>
+</div>
