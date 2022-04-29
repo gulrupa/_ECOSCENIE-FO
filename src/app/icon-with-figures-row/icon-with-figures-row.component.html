@@ -14,9 +14,10 @@
 </ng-container>
 <ng-container *ngIf="mobile">
 	<div class="m-4">
-		<div *ngFor="let card of item" class="d-flex">
-			<div class="bg-white align-items-center d-flex justify-content-center figure-list">
-				<h1> {{card.number}}</h1>
+		<div *ngFor="let card of item" class="d-flex align-items-center">
+			<div
+				class="bg-white align-items-center d-flex justify-content-center rounded-circle figure-list">
+				<h1 class="m-0"> {{card.number}}</h1>
 			</div>
 			<app-icon-card
 				[picture]="card.picture"
