@@ -33,11 +33,13 @@
 
 h1 {
   font-family: millimetre;
-  font-weight: bold;
+  text-align: center;
+  font-weight: 800;
 }
 
 h2 {
   font-family: millimetre;
+  text-align: center;
   font-weight: bold;
 }
 
@@ -48,7 +50,13 @@ h3 {
 
 h4 {
   font-family: millimetre;
-  font-weight: bold;
+  font-weight: 500;
+}
+p {
+  font-family: millimetre;
+  text-align: justify;
+  font-weight: 500;
+  font-size: 20px;
 }
 
 body {

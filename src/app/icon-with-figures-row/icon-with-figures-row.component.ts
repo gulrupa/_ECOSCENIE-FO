@@ -8,11 +8,11 @@ import { Component, OnInit } from '@angular/core';
 export class IconWithFiguresRowComponent implements OnInit {
   public mobile = false;
   public item = [
-    { title: 'Entreprise', description: '', number: 3, picture: '../assets/batiment.svg' },
-    { title: 'Particulier', description: '', number: 9, picture: '../assets/house.svg' },
-    { title: 'Réparé', description: '', number: 17, picture: '../assets/marteau.svg' },
-    { title: 'Produits', description: '', number: 134, picture: '../assets/des-boites.svg' },
-    { title: 'Utilisé', description: '', number: 7, picture: '../assets/recycler.svg' },
+    { title: 'Don Entreprise', description: '', number: 3, picture: '../assets/batiment.svg' },
+    { title: 'Don Particulier', description: '', number: 9, picture: '../assets/house.svg' },
+    { title: 'Valorisé', description: '', number: 17, picture: '../assets/marteau.svg' },
+    { title: 'Références', description: '', number: 134, picture: '../assets/des-boites.svg' },
+    { title: 'Projets soutenues', description: '', number: 7, picture: '../assets/recycler.svg' },
   ];
 
   constructor() { }
