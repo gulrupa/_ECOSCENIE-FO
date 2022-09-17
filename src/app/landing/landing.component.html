@@ -2,57 +2,57 @@
 	<div class="d-flex bg-brown-light p-5 m-2">
 		<img src="../assets/LOGOblanc.svg" class="icon-large">
 	</div>
-	<div class="d-flex bg-brown-light m-2">
-		<app-contact-form class="text-white d-none"> EcoScenie</app-contact-form>
+	<div class="d-flex bg-brown-light m-2  d-none">
+		<app-contact-form class="text-white"> EcoScenie</app-contact-form>
 	</div>
 </div>
 <div class="overflow-hidden flex-column">
 	<div class="feed row bg-brown-light text-white">
-		<h1 class="row">Le cycle de vie de vos objets...</h1>
+		<h1>Le cycle de vie de vos objets...</h1>
 		<app-icon-card
 			[picture]="'../assets/euro.svg'"
 			[title]="'Acheté'"
 			[description]="'Dans le commerce, particuliers et professionnels font l’<strong>acquisition</strong> de <strong>matériel neuf...</strong>'"
-			class="col">
+			class="col-lg-3">
 		</app-icon-card>
 		<app-icon-card
 			[picture]="'../assets/microphone.svg'"
 			[title]="'Utilisé'"
 			[description]="'...qui est alors <strong>utilisé et stocké.</strong> Cela constitue la phase d’<strong>exploitation</strong> du matériel.'"
-			class="col">
+			class="col-lg-3">
 		</app-icon-card>
 		<app-icon-card
 			[picture]="'../assets/poubelle.svg'"
 			[title]="'Jetté'"
 			[description]="'Lorsque le matériel ne répond plus à leurs besoins, les acheteurs le <strong>jettent</strong> où l’<strong>entreposent.</strong>'"
-			class="col">
+			class="col-lg-3">
 		</app-icon-card>
 	</div>
 	<div class="feed row bg-white">
-		<h1>Notre proposition : une nouvelle vie chez Éco Scénie</h1>
+		<h1>Une nouvelle vie chez Éco Scénie</h1>
 		<app-icon-card
 			[picture]="'../assets/boite-cadeau.svg'"
 			[title]="'Donné'"
 			[description]="'Nous proposons alors de <strong>récupérer</strong> ce matériel inutilisé, sous forme de <strong>don</strong>, afin de <strong>prolonger leur durée de vie.</strong>'"
-			class="col">
+			class="col-lg-3">
 		</app-icon-card>
 		<app-icon-card
 			[picture]="'../assets/camion-de-livraison.svg'"
 			[title]="'Enlevé'"
 			[description]="'En <strong>lien avec nos donateurs,</strong> nous <strong>récupérons</strong> le matériel donné, et le <strong>stockons</strong> dans nos locaux.'"
-			class="col">
+			class="col-lg-3">
 		</app-icon-card>
 		<app-icon-card
 			[picture]="'../assets/marteau.svg'"
 			[title]="'Réparé'"
 			[description]="'Celui-ci est alors <strong>testé et remis en état</strong> par notre équipe; nous lui offrons ainsi un <strong>nouveau cycle d’exploitation.</strong>'"
-			class="col">
+			class="col-lg-3">
 		</app-icon-card>
 		<app-icon-card
 			[picture]="'../assets/plante.svg'"
 			[title]="'Utilisé'"
-			[description]="'L’ensemble de notre stock est alors <strong>mis à disposition</strong> de nos adhérents et de nos collaborateurs, de manière <strong>entièrement gratuite,</strong> afin de <strong>soutenir</strong> leurs projets, culturels, artistiques ou éducatifs.'"
-			class="col">
+			[description]="'L’ensemble de notre stock est alors <strong>mis à disposition</strong> de nos adhérents et de nos col-lg-3laborateurs, de manière <strong>entièrement gratuite,</strong> afin de <strong>soutenir</strong> leurs projets, culturels, artistiques ou éducatifs.'"
+			class="col-lg-3">
 		</app-icon-card>
 	</div>
 	<div class="feed row bg-brown-light">
