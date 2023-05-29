@@ -1,12 +1,14 @@
-
-FROM node
+FROM node:16
 
 WORKDIR /usr/src/app
 
-COPY ./ ./
+COPY . .
 
-RUN yarn global add @angular/cli
-RUN yarn install
+RUN npm install -g @angular/cli
 
-CMD [ "yarn", "run", "start" ]
+RUN npm install
+
+RUN npm run build
+
+CMD [ "npm", "run", "start" ]
 EXPOSE 4200
